@@ -1,3 +1,0 @@
-/media/alecm/2TB HDD/alecm/Projects/CrashpadHandlerCPP/bin/Windows/CMakeFiles/CrashpadHandlerCPP.dir
-/media/alecm/2TB HDD/alecm/Projects/CrashpadHandlerCPP/bin/Windows/CMakeFiles/edit_cache.dir
-/media/alecm/2TB HDD/alecm/Projects/CrashpadHandlerCPP/bin/Windows/CMakeFiles/rebuild_cache.dir

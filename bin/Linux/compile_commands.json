@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/media/alecm/2TB HDD/alecm/Projects/CrashpadHandlerCPP/bin/Linux",
-  "command": "/usr/bin/c++ -DLinux=1  -g -o CMakeFiles/CrashpadHandlerCPP.dir/main.cpp.o -c \"/media/alecm/2TB HDD/alecm/Projects/CrashpadHandlerCPP/main.cpp\"",
-  "file": "/media/alecm/2TB HDD/alecm/Projects/CrashpadHandlerCPP/main.cpp",
-  "output": "CMakeFiles/CrashpadHandlerCPP.dir/main.cpp.o"
-}
-]
