@@ -98,15 +98,15 @@ int debugInformationWindows(int argc, char *argv[])
 {
     if(argc > 2)
     {
-        MessageBoxA(nullptr, "Arguments are available", "Debug", MB_OK | MB_ICONINFORMATION);
+        //MessageBoxA(nullptr, "Arguments are available", "Debug", MB_OK | MB_ICONINFORMATION);
         for(int i = 0; i < argc; i++)
         {
-            MessageBoxA(nullptr, argv[i], "Debug", MB_OK | MB_ICONINFORMATION);
+            //MessageBoxA(nullptr, argv[i], "Debug", MB_OK | MB_ICONINFORMATION);
         }
         return 0;
     } else
     {
-        MessageBoxA(nullptr, "ABORT: Arguments are not available", "Debug", MB_OK | MB_ICONERROR);
+        //MessageBoxA(nullptr, "ABORT: Arguments are not available", "Debug", MB_OK | MB_ICONERROR);
         return -1;
     }
 }
