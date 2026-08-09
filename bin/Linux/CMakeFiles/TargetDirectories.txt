@@ -1,0 +1,3 @@
+/media/alecm/2TB HDD/alecm/Projects/CrashpadHandlerCPP/bin/Linux/CMakeFiles/CrashpadHandlerCPP.dir
+/media/alecm/2TB HDD/alecm/Projects/CrashpadHandlerCPP/bin/Linux/CMakeFiles/edit_cache.dir
+/media/alecm/2TB HDD/alecm/Projects/CrashpadHandlerCPP/bin/Linux/CMakeFiles/rebuild_cache.dir

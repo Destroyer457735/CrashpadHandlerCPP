@@ -1,0 +1,31 @@
+{
+    "version": 8,
+    "configurePresets": [
+        {
+            "name": "Linux_x64",
+            "displayName": "Linux x64",
+            "description": "Using compilers: C = /usr/bin/gcc, CXX = /usr/bin/g++",
+            "binaryDir": "${sourceDir}/bin/Linux",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/bin/Linux/install",
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_TOOLCHAIN_FILE":"${sourceDir}/linux-g++-toolchain.cmake",
+                "CMAKE_PRESET_NAME": "${presetName}"
+            },
+            "generator": "Unix Makefiles"
+        },
+        {
+            "name": "Windows_x64",
+            "displayName": "Windows x64",
+            "description": "Using compilers: mingw",
+            "binaryDir": "${sourceDir}/bin/Windows",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/bin/Windows/install",
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_TOOLCHAIN_FILE":"${sourceDir}/mingw-toolchain.cmake",
+                "CMAKE_PRESET_NAME": "${presetName}"
+            },
+            "generator": "Unix Makefiles"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.10.0)
+project(CrashpadHandlerCPP VERSION 0.1.0 LANGUAGES C CXX)
+
+add_executable(CrashpadHandlerCPP main.cpp)
+
+if(CMAKE_PRESET_NAME STREQUAL "Windows_x64")
+    target_link_options(CrashpadHandlerCPP PRIVATE -static-libgcc -static-libstdc++ -mwindows)
+    target_compile_definitions(CrashpadHandlerCPP PRIVATE Windows=1)
+    set_target_properties(CrashpadHandlerCPP PROPERTIES OUTPUT_NAME "cphwin64")
+elseif(CMAKE_PRESET_NAME STREQUAL "Linux_x64")
+    target_compile_definitions(CrashpadHandlerCPP PRIVATE Linux=1)
+    set_target_properties(CrashpadHandlerCPP PROPERTIES OUTPUT_NAME "cphlx64")
+else()
+    message("Unkown build preset ↓")
+    message(CMAKE_PRESET_NAME=${CMAKE_PRESET_NAME})
+endif()
